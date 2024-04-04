@@ -1,0 +1,68 @@
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../Assets/meeting.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    padding-top: 5%; 
+    padding-left: 7%; /* Add padding-left to create 7% padding off the left edge */
+    color: white;
+}
+span {
+    font-family: 'Libre Basketville', serif;  
+    font-style: italic; 
+    font-weight: bold;
+}
+.hero h3{
+    margin-top: 0;
+    font-weight: 400; 
+    font-size: 30px; 
+}
+.hero h1{
+    margin-top: 30px;
+    font-size: 50px; 
+}
+.hero p{
+    margin: 10px 0 50px; 
+}
+button img{
+    height: 25px; 
+}
+form{
+    background: transparent; 
+    display: flex;
+    flex-direction: column;
+    width: fit-content; 
+    border-radius: 5px;  
+}
+.input-div{
+    background: #fff; 
+    display: flex;
+    flex-direction: row; 
+    margin: 8px;
+    border-radius: 5px; 
+}
+form input{
+    border: 0; 
+    outline: none;
+    padding: 10px 20px;
+    height: 70px; 
+    width: 400px;
+    font-size: 16px; 
+    border-radius: 5px; 
+}
+form button{
+    background: #5de645;
+    border: none;
+    outline: none;
+    height: 70px;
+    width: 100px;
+    cursor: pointer; 
+}
+.thanks {
+    color: #61b752;
+    margin-top: 10px;
+    display: block; 
+}
